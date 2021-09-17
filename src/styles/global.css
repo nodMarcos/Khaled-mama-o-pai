@@ -1,0 +1,38 @@
+* {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-blue: #000034;
+    --blue-900: #131347;
+    --white: #FFFFFF;
+    --blue: #2D8EED;
+    --pink: #ED6090;
+    --black: #303030;
+    --gray: #B3B3B3;
+    --green: #58CE9F;
+    
+    --background: #E5E5E5;
+
+}
+
+body {
+    background: var(--background);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font:10px 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, strong { 
+    font-weight: 700;
+}
+
+button {
+    cursor:pointer;
+}

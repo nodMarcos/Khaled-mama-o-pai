@@ -1,0 +1,16 @@
+.IconsContainer {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.IconsContainer > img:nth-child(2) {
+    margin-top: 56px;
+}
+
+.IconsContainer > img + img {
+    cursor: pointer;
+    margin-top: 40px;
+}
